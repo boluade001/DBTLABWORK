@@ -1,8 +1,4 @@
-{{
-    config(
-        materialized='table'
-    )
-}}
+
 select
         id as customer_id,
         first_name,
