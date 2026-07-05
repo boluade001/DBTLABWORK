@@ -28,7 +28,9 @@ models:
               arguments:
                 field: customer_id
                 to: ref('jaffleshop_customers')
-          
+          #go to https://hub.getdbt.com/ go to expectations for expanded tests.
+          # for singular test, create sql in the test folder and write sql criteria for the test
+          # 
           
 
 
