@@ -16,5 +16,20 @@ sources:
         config:
           freshness: null
       - name: ORDERS
+
+
+      #hub.getdbt.com -- to install codegen package 
+      # installation instruction is there
+      # copy the ff and create packages.yml file
+      # -package: dbt-labs/codegen 
+      # version: 0.13.1
+      #note: doesnt need to save in folder
+      #run dbt deps
+      #go back to the instruction and use the one with multiple files, paste to new file and click compile
+      # save the result of the compile, create a new file and paste it there, save in yml format, thats it source file created
+      # copy and place within staging folder just like the manual one 
+      # can work for multiple sources
+      #use together with generate model (clickable)
+# others google dbt.doc.sources  -----dag sources
     
      
